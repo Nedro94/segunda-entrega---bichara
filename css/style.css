@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#crearDiv {
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#contenedorPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor {
+  position: relative;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  width: 300px;
+  box-shadow: black;
+  background-color: #f9f9f9;
+}
+
+.boton-cerrar {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.titulo-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.texto-input {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.guardar-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
